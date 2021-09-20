@@ -20,6 +20,6 @@
     * Contem os código-fonte ***.html*** do website.
 
 ---
-|                                                                   Demonstração do WebSite                                                                    |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| <code><a href="Google.com"><img height="50px" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a></code> |
+|Demonstração do WebSite|Link|
+| :----: |:---:|
+| ![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)|<a href="https://www.google.com/">Click Aqui</a>|
