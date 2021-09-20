@@ -13,7 +13,7 @@
     height: 100%;
 }
 /*Conteudo dentro da div > Content-Div-Manege <*/
-.box-school{
+.hobby-school{
     border-left: 5px solid rgb(223, 223, 223);
     border-right: 5px solid rgba(201, 200, 200, 0.829);
     box-shadow: 5px 5px rgba(0, 0, 0, 0.527);
@@ -22,14 +22,14 @@
     border-radius: 5px;
     
 }
-.box-school h3{
+.hobby-school h3{
     font-family: 'Shadows Into Light', cursive;
     text-align: left;
     padding: 5px;
     font-size: 2em;
     text-align: center;
 }
-.box-school p{
+.hobby-school p{
     width: 95%;
     text-align: justify;
     padding-inline-end: 15px;
