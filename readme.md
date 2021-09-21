@@ -1,4 +1,4 @@
-# Portfólio de Disign Digitar #
+# Portfólio de Disign Digital #
 
 > |Dono do portfólio|Email|Apelido|
 > |----|-----|-----|
