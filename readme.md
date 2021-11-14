@@ -41,3 +41,4 @@
 | :----: |:---:|:---:|
 | ![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)|<a href="https://www.youtube.com/watch?v=JCPDhqW1_6o">Click Aqui</a>|Entrega Nº 1|
 | ![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)|<a href="https://www.youtube.com/watch?v=G9SlitMFbJo">Click Aqui</a>|Entrega Nº 2|
+| ![GitHubPages](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)|<a href="https://zeropirata.github.io/portifolio/src/template/sobremim.html">Click Aqui</a>|Teste do Portifolio|
