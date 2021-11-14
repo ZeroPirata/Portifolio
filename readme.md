@@ -37,7 +37,6 @@
 
 <a href="https://getbootstrap.com/">![Youtube](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)</a>
 ---
-<<<<<<< HEAD
 |Demonstração do WebSite|Link|Numero da Entrega|
 | :----: |:---:|:---:|
 | ![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)|<a href="https://www.youtube.com/watch?v=JCPDhqW1_6o">Click Aqui</a>|Entrega Nº 1|
