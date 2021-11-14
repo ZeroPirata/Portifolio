@@ -1,4 +1,4 @@
-# Portfólio de Disign Digitar #
+# Portfólio de Disign Digital #
 
 > |Dono do portfólio|Email|Apelido|
 > |----|-----|-----|
@@ -37,8 +37,15 @@
 
 <a href="https://getbootstrap.com/">![Youtube](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)</a>
 ---
+<<<<<<< HEAD
 |Demonstração do WebSite|Link|Numero da Entrega|
 | :----: |:---:|:---:|
 | ![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)|<a href="https://www.youtube.com/watch?v=JCPDhqW1_6o">Click Aqui</a>|Entrega Nº 1|
 | ![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)|<a href="https://www.youtube.com/watch?v=G9SlitMFbJo">Click Aqui</a>|Entrega Nº 2|
 | ![GitHubPages](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)|<a href="https://zeropirata.github.io/portifolio/src/template/index.html">Click Aqui</a>|Teste do Portifolio|
+=======
+|Demonstração do WebSite|Link|
+| :----: |:---:|
+| ![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)|<a href="https://www.youtube.com/watch?v=JCPDhqW1_6o">Click Aqui</a>|
+| ![GitHubPages](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)|<a href="https://zeropirata.github.io/portifolio/src/template/index.html">Click Aqui</a>|
+>>>>>>> 81226b862c0f8067ce5c0f57cd1628c53140013a
