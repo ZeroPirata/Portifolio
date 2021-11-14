@@ -1,0 +1,54 @@
+.card-size{
+    width: 70%;
+    margin: 1em auto;
+    border-left: 5px solid rgb(223, 223, 223);
+    border-right: 5px solid rgba(201, 200, 200, 0.829);
+    box-shadow: 5px 5px rgb(0 0 0 / 53%);
+}
+
+.img{
+    margin: 1em;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 5px dashed black;
+}
+.img-controll{
+    margin: 0 auto;
+}
+.title-controll{
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0 auto;
+    font-size: 2em;
+    width: 500px;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    text-align: center;   
+}
+.text-controll{
+    padding-bottom: 1em;
+    font-size: 20px;
+    font-weight: 500;
+    width: 80%;
+    text-align: justify;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px) {
+    .card-size{
+        margin-top: 2em;
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+        margin-top: 2em;
+    }
+}
+@media screen and (max-width:700px) {
+    .title-controll{
+        width: 50%;
+    }
+    .text-controll{
+        text-align: left;
+    }
+}

@@ -1,0 +1,75 @@
+.card-size{
+    width: 90%;
+    height: 250px;
+    margin: 2em auto;
+    border-left: 5px solid rgb(223, 223, 223);
+    border-right: 5px solid rgba(201, 200, 200, 0.829);
+    box-shadow: 5px 5px rgb(0 0 0 / 53%);
+}
+.card-size-text-alt{
+    height: 325px;
+}
+.font-family, .date-controll, .text-controll{
+    font-weight: bold;
+}
+.font-family{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+.date-controll{
+    color: red;
+    font-weight: bold
+}
+.div-controll p{
+    margin: 0;
+}
+.controll-div{
+    display: flex;
+}
+.img{
+    width: 200px;
+    height: 200px;
+    border: black 3px solid;
+    border-radius: 25px;
+    margin: 1.5em 1em;
+}
+.text-controll{
+    padding: 1em;
+}
+@media screen and (max-width:1550px){
+    .card-size{
+        width: 95%;
+    }
+}
+@media screen and (max-width:1280px){
+    .card-size{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1024px){
+    .card-size{
+        width: 80%;
+        height: 100%;
+        margin: 2em auto;
+    }
+}
+@media screen and (max-width: 800px){
+    .controll-div{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .card-size{
+        width: 60%;
+        height: 100%;
+        margin: 2em auto;
+    }
+    .img-controll{
+        text-align: center;
+    }
+    .font-family, .date-controll{
+        display: flex;
+        justify-content: center;
+    }
+}

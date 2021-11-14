@@ -1,0 +1,36 @@
+.card-size{
+    width: 900px;
+    height: 250px;
+    margin: 2em auto;
+    border-left: 5px solid rgb(223, 223, 223);
+    border-right: 5px solid rgba(201, 200, 200, 0.829);
+    box-shadow: 5px 5px rgb(0 0 0 / 53%);
+}
+.hobby-title{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+@media screen and (max-width:1280px) {
+    .card-size{
+        width: 750px;
+    }
+    .hobby-title{
+        font-size: 1.7em;
+    }
+}
+@media screen and (max-width:800px){
+    .card-size{
+        width: 650px;
+    }
+}
+@media screen and (max-width:650px){
+    .card-size{
+        width: 550px;
+    }
+}
+@media screen and (max-width:480px){
+    .card-size{
+        width: 95%
+    }
+}

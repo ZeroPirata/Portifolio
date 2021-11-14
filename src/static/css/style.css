@@ -1,0 +1,128 @@
+
+/* Font Merienda */
+.nav-link-subs, .nav-link-title{
+    font-family: "Merienda", sans-serif;
+}
+.row-divsion{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.container-navbar span{
+    text-align: center;
+    font-size: 1.5em;
+    color: black;
+    transform: translateY(-1.3em);
+    border-bottom: 2px dashed rgb(170, 12, 12);
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 700%;
+    margin: 0 3em;
+}
+.col-colo{
+    background-color: rgb(195, 207, 217);
+}
+.container-navbar a{
+    text-align: left;
+}
+.container-navbar{
+    position: fixed;
+}
+.teste{
+    background-color: rgb(75, 93, 108);
+    border-right: 5px dashed black;
+}
+.nav-link-title{
+    font-size: 6em;
+    text-decoration: none;
+    color: rgb(236, 180, 11);
+}
+.nav-link:focus{
+    color: rgb(170, 12, 12);
+}
+.nav-link-subs{
+    font-size: 2em;
+    color: black;
+}
+.nav-link-subs:hover{
+    background-color: #a1b0bd;
+    color: #4b5d6c!important;
+}
+.nav-link:hover{
+    color: rgb(170, 12, 12);
+}
+#pirata:active,
+#pirata:hover{
+    color: rgb(236, 180, 11);
+}
+.nav{
+    margin: 0 auto;
+}
+.sidbar-mobile{
+    display: none;
+}
+@media screen and (max-width: 1550px){
+    .nav-link-title{
+        font-size: 5em;
+    }
+    .nav-link-subs{
+        font-size: 1.8em;
+    }
+    .container-navbar span{
+        margin: 0 1.5em;
+    }
+    .col-sm-2{
+        width: 20%;
+    }
+    .col-sm-10{
+        width: 80%
+    }
+}
+@media screen and (max-width: 1280px){
+    .nav-link-title{
+        font-size: 4em;
+    }
+
+}
+@media screen and (max-width: 1024px){
+    .sidbar-desktop {
+        display: none;
+    }
+    .sidbar-mobile{
+        display: block;
+    }
+    #pirata{
+        font-size: 3em;
+        margin: 0;
+        padding: 0;
+        width: 11%;
+    }
+    #pirata-close{
+        font-size: 3em;
+        margin: 0;
+        padding: 0;
+        width: 11%;
+    }
+    .col-color-sidebar{
+        background-color: rgb(75, 93, 108);
+        color: black;
+    }
+    .nav-link-subs{
+        font-size: 2em;
+    }
+    .parademiar{
+        background-color: rgb(195, 207, 217);
+        height: 100%;
+    }
+    .side-bar-widht{
+        width: 250px;
+    }   
+}
+@media screen and (max-width: 550px){
+        .side-bar-widht{
+            width: 250px;
+        }
+        .nav-link-subs{
+            font-size: 2em;
+        }
+}
