@@ -44,8 +44,9 @@
 > 
 > ### Implementação no Heroku ###
 
-----
-## Como fazer a aplicação rodar com flask ##
+-----
+## Como fazer a aplicação rodar com o FLASK ##
+
 Tendo a ferramenta Git e o Python instalados em seu computador:
 - Abra o Prompt de Comando no caminho de um novo diretório e copie o seguinte comando para clonar o nosso repositório:
 
@@ -85,4 +86,5 @@ flask run -p 9000
 | :----: |:---:|:---:|
 | ![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)|<a href="https://www.youtube.com/watch?v=JCPDhqW1_6o">Click Aqui</a>|Entrega Nº 1|
 | ![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)|<a href="https://www.youtube.com/watch?v=G9SlitMFbJo">Click Aqui</a>|Entrega Nº 2|
-| ![GitHubPages](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)|<a href="https://zeropirata.github.io/portifolio/src/template/index.html">Click Aqui</a>|Teste do Portifolio|
+| ![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)|<a href="https://zeropirata.herokuapp.com/">Click Aqui</a>|Teste do Portifolio no Heroku|
+<a href="https://zeropirata.herokuapp.com/"></a>
