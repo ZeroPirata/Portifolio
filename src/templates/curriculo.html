@@ -1,0 +1,129 @@
+<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,500;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!--Fonte-->
+    <!--CSS-->
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/curriculo.css">
+    <!--CSS-->
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial0scale=1">
+    <title>Curriculo</title>
+</head>
+
+<body>
+    <div class="row row-divsion">
+        <!-- Navbar-->
+        <div class="col-sm-2 teste col-color sidbar-desktop">
+            <div class=" container-navbar">
+                <a class="nav-link nav-link-title" aria-current="page" href="#">Zero</a>
+                <span> se localize </span>
+                <a class="nav-link nav-link-subs" href="{{ url_for('about_me') }}">Sobre Mim</a>
+                <a class="nav-link nav-link-subs" href="{{ url_for('school') }}">Escolaridade</a>
+                <a class="nav-link nav-link-subs" href="{{ url_for('project') }}">Projeto</a>
+                <a class="nav-link nav-link-subs" href="{{ url_for('curriculo') }}">Curriculo</a>
+                <a class="nav-link nav-link-subs" href="{{ url_for('hobby') }}">Hobby</a>
+            </div>
+        </div>
+        <!-- Side bar -->
+        <div class="sidbar-mobile">
+            <div class=" col-color-sidebar offcanvas offcanvas-start side-bar-widht " tabindex="-1" id="offcanvas"
+                data-bs-keyboard="false" data-bs-backdrop="false">
+                <div class="offcanvas-header">
+                    <a id="pirata-close" class="nav-link nav-link-title" aria-current="page" href="#"
+                        data-bs-toggle="offcanvas" aria-label="Close">Zero</a>
+                </div>
+                <div class="offcanvas-body px-0">
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
+                        <li class="nav-item">
+                            <a href="{{ url_for('about_me') }}" class="nav-link text-truncate nav-link-subs">
+                                Sobre mim
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url_for('school') }}" class="nav-link text-truncate nav-link-subs">
+                                Escolaridade
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url_for('project') }}" class="nav-link text-truncate nav-link-subs">
+                                Projetos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url_for('curriculo') }}" class="nav-link text-truncate nav-link-subs">
+                                Curriculo
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url_for('hobby') }}" class="nav-link text-truncate nav-link-subs">
+                                Hobby
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-color-sidebar">
+                    <!-- toggler -->
+                    <a id="pirata" class="nav-link nav-link-title" aria-current="page" href="#"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvas">Zero</a>
+                </div>
+                <!-- Conteudo da pagina -->
+                <div class="col-sm-12 parademiar">
+                    <div class="card card-size ">
+                        <div class="icon-controll">
+                            <img class="icon-principal" src="../static/imagens/minhafoto.png" alt="" srcset="">
+                            <div class="control-second-icons">
+                                <img class="icon-second" src="../static/imagens/fbicon.png" alt="" srcset="">
+                                <img class="icon-second" src="../static/imagens/giticon.png" alt="" srcset="">
+                                <img class="icon-second" src="../static/imagens/linkend.png" alt="" srcset="">
+                                <img class="icon-second" src="../static/imagens/emailicon.png" alt="" srcset="">
+                            </div>
+                            <p class="text-title">Curriculo</p>
+                            <p class="text-cont">Aqui será a área onde irei colocar meu curriculo.
+                                visando colocar por exemplo.
+                                Habilidades e compentencias, Escolaridade, Experiencia Proficional, idiomas de dominio.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Body -->
+        <div class="col-sm-4 col-colo sidbar-desktop">
+            <div class="icon-controll">
+                <img class="icon-principal" src="../static/imagens/minhafoto.png" alt="" srcset="">
+                <img class="icon-second" src="../static/imagens/fbicon.png" alt="" srcset="">
+                <img class="icon-second" src="../static/imagens/giticon.png" alt="" srcset="">
+                <img class="icon-second" src="../static/imagens/linkend.png" alt="" srcset="">
+                <img class="icon-second" src="../static/imagens/emailicon.png" alt="" srcset="">
+            </div>
+        </div>
+        <div class="col-sm-6 col-colo sidbar-desktop">
+            <div class="card card-size ">
+                <p class="text-title">Curriculo</p>
+                <p class="text-cont">Aqui será a área onde irei colocar meu curriculo.
+                    visando colocar por exemplo.
+                    Habilidades e compentencias, Escolaridade, Experiencia Proficional, idiomas de dominio.</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+
+</html>

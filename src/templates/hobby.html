@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block head %}
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/hobby.css') }}">
+
+{% endblock %}
+{% block title %}
+Hobby
+{% endblock %}
+{% block mobile %}
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente Jogos</p>
+</div>
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente Musicas</p>
+</div>
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente Series/Animes/Mangás</p>
+</div>
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente Códigos</p>
+</div>
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente alguma coisa</p>
+</div>
+{% endblock %}
+{% block desktop %}
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente Jogos</p>
+</div>
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente Musicas</p>
+</div>
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente Series/Animes/Mangás</p>
+</div>
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente Códigos</p>
+</div>
+<div class="card card-size ">
+    <p class="hobby-title">Provavelmente alguma coisa</p>
+</div>
+{% endblock %}

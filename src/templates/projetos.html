@@ -1,0 +1,199 @@
+<html>
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,500;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <!--Fonte-->
+    <!--CSS-->
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/projeto.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <!--CSS-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projetos</title>
+</head>
+
+<body>
+    <div class="row row-divsion">
+        <!-- Navbar-->
+        <div class="col-sm-2 teste col-color sidbar-desktop">
+            <div class=" container-navbar">
+                <a class="nav-link nav-link-title" aria-current="page" href="#">Zero</a>
+                <span> se localize </span>
+                <a class="nav-link nav-link-subs" href="{{ url_for('about_me') }}">Sobre Mim</a>
+                <a class="nav-link nav-link-subs" href="{{ url_for('school') }}">Escolaridade</a>
+                <a class="nav-link nav-link-subs" href="{{ url_for('project') }}">Projeto</a>
+                <a class="nav-link nav-link-subs" href="{{ url_for('curriculo') }}">Curriculo</a>
+                <a class="nav-link nav-link-subs" href="{{ url_for('hobby') }}">Hobby</a>
+            </div>
+        </div>
+        <!-- Side bar -->
+        <div class="sidbar-mobile">
+            <div class=" col-color-sidebar offcanvas offcanvas-start side-bar-widht " tabindex="-1" id="offcanvas"
+                data-bs-keyboard="false" data-bs-backdrop="false">
+                <div class="offcanvas-header">
+                    <a id="pirata-close" class="nav-link nav-link-title" aria-current="page" href="#"
+                        data-bs-toggle="offcanvas" aria-label="Close">Zero</a>
+                </div>
+                <div class="offcanvas-body px-0">
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-start" id="menu">
+                        <li class="nav-item">
+                            <a href="{{ url_for('about_me') }}" class="nav-link text-truncate nav-link-subs">
+                                Sobre mim
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url_for('school') }}" class="nav-link text-truncate nav-link-subs">
+                                Escolaridade
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url_for('project') }}" class="nav-link text-truncate nav-link-subs">
+                                Projetos
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url_for('curriculo') }}" class="nav-link text-truncate nav-link-subs">
+                                Curriculo
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{{ url_for('hobby') }}" class="nav-link text-truncate nav-link-subs">
+                                Hobby
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-color-sidebar">
+                    <!-- toggler -->
+                    <a id="pirata" class="nav-link nav-link-title" aria-current="page" href="#"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvas">Zero</a>
+                </div>
+                <!-- Conteudo da pagina -->
+                <div class="col-sm-12 parademiar">
+                    <div class="card card-size ">
+                        <p class="title-class">Projetos</p>
+                        <p class="text-class">Bem, enquanto eu não sabia muito o que fazer durante a pandemia eu decidi
+                            meio que
+                            entrar no Cursos
+                            On-line udemy, e como o site vive em promoção, acabei comprando alguns e fazendo. O que mais
+                            eu fiz
+                            foi o "Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos" fazendo um total de 20
+                            horas de
+                            114 horas, pretendo continuar com ele futuramente para ampliar o meu conhecimento que estou
+                            adquirindo na FATEC.
+                            Graças a esse curso eu consegui adiquirir um pouco de conhecimento para fazer pequenos
+                            projetos para
+                            treinar e brincar um pouco, comecei por um pequeno desafio que meu amigo falou, que é fazer
+                            o menu
+                            do terraria, imitando algumas funções.
+                            No final desse Menu Screen do terraria eu acabei me divertindo muito, pois eu tinha feito um
+                            pequeno
+                            pequeno menu agradavel e navegavel baseado em um dos meus jogos favoritos, futuramente eu
+                            tenho um
+                            plano de tentar fazer um terraria para web, exigira tempo e dedicação, mas por esse jogo
+                            vale a
+                            pena.
+                            <strong>
+                                Curiosidade, jogo terraria desde 2012. No jogo pirata eu devo ter em torno de algumas 2
+                                mil
+                                horas,
+                                infelizmente não tem registro no pirata, porém registradas contem 627 horas [Contandas
+                                desde
+                                2015]
+                            </strong>
+                            <br>Outro mini projeto que eu fiz foi uma tela de login, é so isso, foi só por que eu tinha
+                            visto
+                            uma
+                            tela de login bonita em algum site e pensei comigo mesmo "Porque eu não tento fazer ela do
+                            meu
+                            modo?" no final foi algo simples e bem basico, mas me deixando orgulhoso do que eu tinha
+                            feito,
+                            algum dia eu possa criar um site e colocar ela na versão 2.0, quem sabe né.
+                            O ultimo projeto que eu fiz, que eu não poderia deixar de colocar é o meu prototipo de
+                            portifolio,
+                            onde no inicio do semestre quando o professor falou para fazer um, eu tentei criar algo "UOU
+                            ISSO
+                            VAI FICAR INCRIVEL CHEIO DE DETALHES", só que com o passar dos dias eu contornei esse
+                            pensamento
+                            usando a filosofia Zen Of Python e acabei decidindo que algo simples seria melhor que
+                            complexo cheio
+                            de detalhes, e sinceramente estou feliz com essa decisão também.
+                        </p>
+                        <div class="imgs-controll">
+                            <div class="center-imgs">
+                                <p class="img-text"> Terraria <img class="img" src="../static/imagens/terraria.png">
+                                </p>
+                                <p class="img-text"> Primeiro Login <img class="img"
+                                        src="../static/imagens/loginhtml.png">
+                                </p>
+                                <p class="img-text"> Primeiro teste de Port. <img class="img"
+                                        src="../static/imagens/primeiroteste.png"> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Body -->
+        <div class="col-sm-8 col-colo sidbar-desktop">
+            <div class="card card-size ">
+                <p class="title-class">Projetos</p>
+                <p class="text-class">Bem, enquanto eu não sabia muito o que fazer durante a pandemia eu decidi meio que
+                    entrar no Cursos
+                    On-line udemy, e como o site vive em promoção, acabei comprando alguns e fazendo. O que mais eu fiz
+                    foi o "Desenvolvimento Web Completo 2021 - 20 cursos + 20 projetos" fazendo um total de 20 horas de
+                    114 horas, pretendo continuar com ele futuramente para ampliar o meu conhecimento que estou
+                    adquirindo na FATEC.
+                    Graças a esse curso eu consegui adiquirir um pouco de conhecimento para fazer pequenos projetos para
+                    treinar e brincar um pouco, comecei por um pequeno desafio que meu amigo falou, que é fazer o menu
+                    do terraria, imitando algumas funções.
+                    No final desse Menu Screen do terraria eu acabei me divertindo muito, pois eu tinha feito um pequeno
+                    pequeno menu agradavel e navegavel baseado em um dos meus jogos favoritos, futuramente eu tenho um
+                    plano de tentar fazer um terraria para web, exigira tempo e dedicação, mas por esse jogo vale a
+                    pena.
+                    <strong>
+                        Curiosidade, jogo terraria desde 2012. No jogo pirata eu devo ter em torno de algumas 2 mil
+                        horas,
+                        infelizmente não tem registro no pirata, porém registradas contem 627 horas [Contandas desde
+                        2015]
+                    </strong>
+                    <br>Outro mini projeto que eu fiz foi uma tela de login, é so isso, foi só por que eu tinha visto
+                    uma
+                    tela de login bonita em algum site e pensei comigo mesmo "Porque eu não tento fazer ela do meu
+                    modo?" no final foi algo simples e bem basico, mas me deixando orgulhoso do que eu tinha feito,
+                    algum dia eu possa criar um site e colocar ela na versão 2.0, quem sabe né.
+                    O ultimo projeto que eu fiz, que eu não poderia deixar de colocar é o meu prototipo de portifolio,
+                    onde no inicio do semestre quando o professor falou para fazer um, eu tentei criar algo "UOU ISSO
+                    VAI FICAR INCRIVEL CHEIO DE DETALHES", só que com o passar dos dias eu contornei esse pensamento
+                    usando a filosofia Zen Of Python e acabei decidindo que algo simples seria melhor que complexo cheio
+                    de detalhes, e sinceramente estou feliz com essa decisão também.
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-2  col-colo sidbar-desktop">
+            <div class="imgs-controll">
+                <img class="img" src="../static/imagens/terraria.png">
+                <img class="img" src="../static/imagens/primeiroteste.png">
+                <img class="img" src="../static/imagens/loginhtml.png">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../static/bootstrap/js/bootstrap.min.js"></script>
+
+</html>
